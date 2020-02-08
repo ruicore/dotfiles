@@ -101,7 +101,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias setproxy="export https_proxy=http://127.0.0.1:8001; export http_proxy=http://127.0.0.1:8001; export all_proxy=socks5://127.0.0.1:1081; echo 'Set proxy successfully'"
 alias unsetproxy="unset http_proxy; unset https_proxy; unset all_proxy; echo 'Unset proxy successfully'"
-alias unsetproxy="unset ALL_PROXY"
 alias ip="curl myip.ipip.net"
 
 alias ls="ls -larhG"
