@@ -106,4 +106,6 @@ alias ip="curl myip.ipip.net"
 alias ls="ls -larhG"
 alias duc=" du -cksh -- *(D) |sort -rh"
 alias dt="cd ~/Desktop"
+alias pycharm='open -na "PyCharm.app" --args "$@"'
+
 export PATH="/usr/local/sbin:$PATH"
