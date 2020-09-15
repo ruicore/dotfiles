@@ -1,0 +1,10 @@
+vim ~/.ssh/config
+ssh-copy-id dare
+
+Host dare
+    HostName 185.186.146.51
+    User ruicore
+
+Host vultr
+    HostName 149.28.63.156
+    User root
